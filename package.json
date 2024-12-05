@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "inquirer": "^11.1.0",
+    "nanospinner": "^1.1.0"
+  },
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon .",
+    "start": "node ."
+  },
+  "name": "kira",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "nodemon": "^3.1.7"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
